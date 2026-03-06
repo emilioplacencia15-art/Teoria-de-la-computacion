@@ -36,22 +36,41 @@ $$A^+ = A^1 \cup A^2 \cup A^3 \cup \dots \cup A^n$$
 
 ## Instrucciones de Ejecución
 
-Para poder ejecutar esta aplicación, es necesario contar con el *Java Development Kit (JDK)* instalado en el equipo en version 25.0.2.
+Para poder ejecutar esta aplicación, es necesario contar con el Java Development Kit (JDK) instalado en el equipo en la versión 25 o superior.
 
-* Tener instalado el *Java Development Kit (JDK)*.
-* Las variables de entorno (específicamente el Path) deben estar configuradas correctamente en tu sistema para reconocer el comando java.
+### 1. Instalar Java
+
+Descargar e instalar el Java Development Kit (JDK) desde el sitio oficial:
+
+https://www.oracle.com/java/technologies/downloads/
+
+Seleccionar JDK 25 para el sistema operativo y seguir los pasos de instalación.
+
+### 2. Verificar la instalación
+
+Abrir una terminal o consola y ejecutar:
+
+```bash
+java --version
+```
+
+Si la instalación fue correcta, debería mostrarse:
+
+```
+java 25.0.1
+Java(TM) SE Runtime Environment
+Java HotSpot(TM) 64-Bit Server VM
+```
+
 
 ## Instrucciones de Descarga y Ejecución
-
-Puedes encontrar los archivos de este proyecto y el ejecutable en el siguiente repositorio: [https://github.com/emilioplacencia15-art/Teoria-de-la-computacion.git](https://github.com/emilioplacencia15-art/Teoria-de-la-computacion.git)
-
 1. *Descargar el archivo ejecutable:*
-   * Dirígete a la sección de *Releases* (ubicada en el panel lateral derecho de este repositorio).
+   * Dirígirse a la carpeta Teoria-de-la-computacion/Operaciones Basicas sobre Lenguajes con Interfaz Grafica/target.
    * Haz clic y descarga el archivo llamado Lenguajes-1.0-SNAPSHOT.jar.
 
 2. *Abrir la terminal:*
    * Abre tu consola de comandos (CMD, PowerShell o la terminal de tu sistema operativo).
-   * Navega usando el comando cd hasta la carpeta donde guardaste el archivo .jar. Por ejemplo, si está en tus descargas:
+   * Navegar usando el comando cd hasta la carpeta donde se guardo el archivo .jar. Por ejemplo, si está en descargas:
      cd Descargas o en su defecto cd Downloads
 
 3. *Ejecutar el programa:*
@@ -61,7 +80,7 @@ Puedes encontrar los archivos de este proyecto y el ejecutable en el siguiente r
      `
 
 ---
-*Nota para la ejecución:* Si al lanzar el comando el sistema arroja un error indicando que java no se reconoce, será necesario revisar la configuración de las variables de entorno de tu equipo.
+*Nota para la ejecución:* Si al lanzar el comando el sistema arroja un error indicando que java no se reconoce, será necesario revisar la configuración de las variables de entorno de el equipo.
 
 
 
